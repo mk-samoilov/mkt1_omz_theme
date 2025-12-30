@@ -8,7 +8,7 @@ reset="%{$reset_color%}"
 prompt_symbol="%(!.#.\$)"
 
 # PROMPT: user@host, path, symbol
-PROMPT="${userhost_color}%n@%m${reset} ${path_color}%2~${reset} \$(git_prompt_info)%{$reset%}%B${prompt_symbo>
+PROMPT="${userhost_color}%n@%m${reset} ${path_color}%2~${reset} \$(git_prompt_info) %B${prompt_symbol}%b "
 
 # Right prompt (disabled)
 RPS1=""
